@@ -1,0 +1,155 @@
+body {
+  background-color: #634785;
+  color: #D8D8F6;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  text-align: center;
+}
+
+h1 {
+font-family: 'Yeseva One', cursive;
+color: #C4B061;
+}
+
+h2 {
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 1px;
+  color: #C4B061;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #634785;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+a:hover {
+  color: #D8D8F6;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px 20px;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.img-circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+#btn-purple {
+  font-size: 20px;
+  color:#D8D8F6;
+  background-color: #634785;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#btn-purple:hover {
+  color:#634785;
+  background-color: #D8D8F6;
+}
+
+.card {
+  border: 1px solid #634785;
+  padding: 30px 0px;
+  margin: 100px 5px;
+  border-radius: 10px;
+  background-color: #978CD0;
+}
+
+.shadowed {
+  box-shadow: 0 3px 13px #BCB5E1;
+}
+
+.demo-typewriter h1 {
+  overflow: hidden;
+  border-right: .10em solid #634785;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .2rem;
+  animation: demo-typewriter 3s steps(30, end), demo-cursor 1s step-end infinite;
+}
+@keyframes demo-typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes demo-cursor {
+  from, to {
+    border-color: transparent;
+}
+  50% {
+border-color: #634785;
+  }
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+
+  .img-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .img-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+}
+
+#image-change {
+   background-image: url('images/monica_profile.jpeg');
+   background-size:cover;
+   height: 200px;
+   width: 200px;
+   border-radius: 50%;
+   margin: 0 auto;
+}
+
+#image-change:hover {
+   background-image: url('images/friends-american-sitcom.gif');
+   background-size:cover;
+   height: 200px;
+   width: 200px;
+   border-radius: 50%;
+}
