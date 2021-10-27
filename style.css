@@ -27,7 +27,10 @@ a {
   font-weight: 600;
   font-size: 30px;
 }
-
+img {
+  width: 100px;
+  height: 100px;
+}
 a:hover {
   color: #D8D8F6;
 }
